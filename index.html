@@ -21,71 +21,135 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
+
+  <!-- Content -->
   <body id="page-top" data-spy="scroll">
-    
+
     <!-- Intro Section -->
     <section id="intro" class="intro-section">
       <div class="container">
-        <img src="img/logo.svg" class="logo">
+        <img src="img/logo.svg" class="logo pull-left">
         <img src="img/line.svg" class="dots">
         <div id="circle1"></div>
-        <div class="col-md-10 col-offset-1">
+        <div class="col-md-10 col-offset-2">
           <div class="row tagline">
-            <div class="col-lg-12">
+            <div class="col-lg-10 col-md-offset-2">
               <h2>Your guide to common cultural faux pas on your next trip abroad</h2>
-                <div id="custom-search-input">
-                  <div class="row">
-                    <div class="input-group col-md-12">
-                      <div class="col-md-6">
-                        <h3>Where are you going?</h3>
-                      </div>
-                      <div class="col-md-6">
-                      <!-- <span>Where are you going?</span> -->
-                        <input type="text" class="form-control fo-se" placeholder="Madagascar"/>
-                      </div>
-                    </div>
+                <form method="post" class="form-inline form-horizontal" role="form">
+                  <label class="control-label col-sm-5" for="jbe"><i class="icon-envelope"></i> Where are you going? </label>
+                  <div class="input-group col-sm-5">
+                    <input class="form-control" type="email" name="email" placeholder="Madagascar"/>
                   </div>
-                </div>
+                </form>
+              </div>
             </div>
           </div>
         </div>
         <div id="circle2"></div>
         <div class="scroll-top-wrapper center">
           <span class="scroll-top-inner">
-            <i class="fa fa-2x fa-chevron-circle-down scroll"></i>
+            <a class="page-scroll" href="#germany"><i class="fa fa-2x fa-chevron-down scroll"></i></a>
           </span>
         </div>
       </div>
-    </section>
 
-    <!-- About Section -->
-    <section id="about" class="germany-section">
+      <!-- Navbar fixed bottom -->
+      <div class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <!-- Left nav -->
+          <ul class="nav navbar-nav navbar-left">
+            <li><a href="#germany">FEATURED</a></li>
+            <li><a href="#egypt">COUNTRY OF THE DAY</a></li>
+            <li><a href="#crowdsource">CONTRIBUTE</a></li>
+          </ul>
+          </section>
+        </div>
+      </div>
+
+    <!-- Featured -->
+    <section id="germany" class="germany-section">
       <div class="container">
+        <span class="glyphicon glyphicon-start"></span>
         <div class="row">
-          <div class="col-lg-12">
-            <h1>Germany</h1>
+          <div class="col-lg-12 col-md-offset-1">
+            <div class="col-lg-6">
+              <h1 class="big white pull-left">Germany</h1>
+              <p class="pull-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nihil ab dicta magni asperiores. Debitis accusamus ipsam error eligendi deleniti perferendis quod enim, laudantium nam libero ipsum, officiis sint ipsa?</p>
+              <p class="pull-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nihil ab dicta magni asperiores. Debitis accusamus ipsam error eligendi deleniti perferendis quod enim, laudantium nam libero ipsum, officiis sint ipsa? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime repudiandae magni consequuntur in? Aliquam perferendis nobis alias sunt, itaque et, dignissimos laboriosam accusantium similique quisquam odit molestiae, quidem quaerat doloremque.</p>
+              <button class="btn btn-warning pull-left"><a href="Germany.html">Learn More</a></button>
+              </div>
+            </div>
+            <div class="col-md-offset-1 col-lg-5 pull-right">
+              <img src="img/gate.svg">
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Services Section -->
-    <section id="services" class="egypt-section">
+    <!-- Country of the Day -->
+    <section id="egypt" class="egypt-section">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
-            <h1>Egypt</h1>
+            <div class="col-lg-5 pull-left">
+              <img src="img/pyramids.svg">
+            </div>
+            <div class="col-md-offset-1 col-lg-6">
+              <h1 class="big black pull-left">Egypt</h1>
+              <p class="pull-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nihil ab dicta magni asperiores. Debitis accusamus ipsam error eligendi deleniti perferendis quod enim, laudantium nam libero ipsum, officiis sint ipsa?</p>
+              <p class="pull-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nihil ab dicta magni asperiores. Debitis accusamus ipsam error eligendi deleniti perferendis quod enim, laudantium nam libero ipsum, officiis sint ipsa? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime repudiandae magni consequuntur in? Aliquam perferendis nobis alias sunt, itaque et, dignissimos laboriosam accusantium similique quisquam odit molestiae, quidem quaerat doloremque.</p>
+              <button class="btn btn-warning pull-left"><a href="#">Learn More</a></button>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="crowdsource-section">
+    <!-- Contribute Section -->
+    <section id="crowdsource" class="crowdsource-section">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
-            <h1>Are you a travel expert?</h1>
+            <div class="col-md-offset-1 col-lg-8">
+              <h1 class="white pull-left">Are you a travel expert?</h1>
+              <p class="pull-left white">Contribute cultural travel tips and help people navigate your country</p>
+              <div class="row">
+                <div class="col-lg-8">
+                  <div class="input-group">
+                    <div class="input-group-btn dropdown">
+                      <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Category
+                        <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Etiquette</a></li>
+                        <li><a class="dropdown-item" href="#">Tipping</a></li>
+                        <li><a class="dropdown-item" href="#">Dress Code</a></li>
+                        <li><a class="dropdown-item" href="#">Dialect</a></li>
+                      </div>
+                    </ul>
+                    <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="Enter Country">
+                  </div>
+                </div>
+              </div>
+              <div class="form-horizontal">
+                <div class="form-group">
+                  <div class="col-lg-8">
+                    <textarea class="form-control" rows="3" placeholder="Greet people by touching their nose to your nose" required></textarea>
+                  </div>
+                </div>
+            </div>
+            <button class="btn btn-warning pull-left">Submit</button>
+            </div>
           </div>
         </div>
       </div>
