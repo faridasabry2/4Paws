@@ -1,0 +1,101 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.intro-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #FAAB54;
+}
+
+.germany-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #275996;
+}
+
+.egypt-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
+
+.crowdsource-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #275996;
+}
+
+.header h2 {
+    font-size: ;
+    font-family:'Ubuntu', sans-serif;;
+}
+
+.fo-search {
+    padding-top: 300px;
+}
+
+#circle1 {
+    position: absolute;
+    top: -200px;
+    right: -120px;
+    width: 400px;
+    height: 400px;
+    background: #275996;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+#circle2 {
+    position: absolute;
+    left: -250px;
+    bottom: 0px;
+    width: 600px;
+    height: 300px;
+    background: #275996;
+    -moz-border-radius: 300px 300px 0px 0px;
+    -webkit-border-radius: 300px 300px 0px 0px;
+    border-radius: 300px 300px 0px 0px;
+}
+
+.logo {
+    width: 300px;
+    position: top left;
+}
+
+.dots {
+    position: relative;
+    float: top;
+    z-index: 1;
+    margin-left: -100px;
+    margin-top: -100px;
+}
+
+.tagline {
+    position: relative;
+    margin: -250px 150px 0px 150px;
+    text-align: left;
+    color: white;
+}
+
+.scroll {
+    color: #fff;
+    margin-top: 20px;
+    font-size: 100px;
+}
+
+.fo-search {
+    width: 300px !important;
+}
+
