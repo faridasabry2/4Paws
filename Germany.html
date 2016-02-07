@@ -21,52 +21,109 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body id="page-top" data-spy="scroll">
-    
+  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#Home">
+            <img src="img/orangelogo.svg" alt="">
+          </a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="index.html">HOME</a>
+            </li>
+            <li>
+              <a href="index.html">COUNTRIES</a>
+            </li>
+            <li>
+              <a href="https://4paws.meteor.com">CONTRIBUTE</a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+        <!-- /.container -->
+    </nav>
     <!-- Intro Section -->
-    <section id="about" class="intro-section">
+    <section id="travel" class="intro-section">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12">
-            <h1>Intro</h1>
+          <div class="col-md-12">
+            <div class=" pull-left col-md-7 left">
+              <h2>So you're traveling to</h2>
+              <h1 class="big">Germany</h1>
+              <h2>Here are a few things that you will need to know</h2>
+            </div>
+            <div class=" pull-right col-md-5">
+              <img src="img/germany.svg" class="resize">
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="germany-section">
+    <!-- Intro Section -->
+    <section id="walk-line" class="egypt-section">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12">
-            <h1>Germany</h1>
+          <div class="col-md-12">
+            <div class=" pull-right col-md-6 left">
+              <h1 class="big">Toe the Line</h1>
+              <p>Stand at a crossroads in Germany and you may notice something strange. Germans will never cross the road when the light is red even when there is not a car in sight.You should do the same or suffer the locals' disapproval.</p>
+            </div>
+            <div class=" pull-right col-md-5">
+              <img src="img/crosswalk.svg" class="big-pic">
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Services Section -->
-    <section id="services" class="egypt-section">
+    <section id="water" class="germany-section">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12">
-            <h1>Egypt</h1>
+          <div class="col-md-12">
+            <div class=" pull-left col-md-offset-1 col-md-6 left">
+              <h1 class="sorta-big white">Water is On Tap</h1>
+              <p class="white">You may be used to waiters keeping your glass top-full with tapwater, but don’t expect this in Germany. Most restaurants don’t serve tap water. They only serve bottled water, and no, it isn’t free.</p>
+              <p class="white">Also somewhat counter-intuitively, seltzer water is called “classic water,” So be careful when ordering.
+              </p>
+            </div>
+            <div class=" pull-right col-md-5">
+              <img src="img/glass.svg" class="small">
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="crowdsource-section">
+    <section id="hows-you" class="egypt-section">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12">
-            <h1>Are you a travel expert?</h1>
+          <div class="col-md-12">
+            <div class=" pull-right col-md-offset-1 col-md-6 left">
+              <h1 class="sorta-big">How are you, really?</h1>
+              <p>Be cautious when asking a German “how are you,” or “Wie Geht’s.” In Germany, the question is taken literally. If they are not doing “fine,” they will tell you why, in excrutiating detail. But, If you are actually looking for an honest answer to “how are you” then you will be in heaven.</p>
+            </div>
+            <div class=" pull-left col-md-5">
+              <img src="img/emotion.svg" class="small">
+            </div>
           </div>
         </div>
       </div>
     </section>
-    
+
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
@@ -78,6 +135,14 @@
     <script src="js/scrolling-nav.js"></script>
 
   </body>
+  <!-- <footer>
+    <ul>
+      <li>HOME</li>
+      <li>COUNTRIES</li>
+      <li>CONTRIBUTE</li>
+      <li>HELP</li>
+    </ul>
+  </footer> -->
 
 
 </html>
